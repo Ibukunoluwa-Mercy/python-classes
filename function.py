@@ -1,7 +1,7 @@
 # You do something repeatedly - Function
 # 1. declaration stage
 # 2. Definition stage
-# 3. invokation stage
+# 3. invocation stage
 
 
 def run():
@@ -24,68 +24,68 @@ def cm_to_m():
     to_m = val/100
     print(f"Ans: {to_m}m")
     
-# # cm_to_m()
+# cm_to_m()
 
 
-# # return function 
+# return function 
 
-# def get5():
-#     return 5
+def get5():
+    return 5
 
-# # print(get5())
-# res = get5()
-# # print(res)
-
-
-# def get_initials():
-#     firstname = input("Firstname: ").strip().capitalize()
-#     lastname = input("Lastname: ").strip().capitalize()
-#     initials = firstname[0]+lastname[0]
-#     return initials
+# print(get5())
+res = get5()
+# print(res)
 
 
-# # res = get_initials()
-# # print(res)
+def get_initials():
+    firstname = input("Firstname: ").strip().capitalize()
+    lastname = input("Lastname: ").strip().capitalize()
+    initials = firstname[0]+lastname[0]
+    return initials
+
+
+# res = get_initials()
+# print(res)
 
 
 
-# # parametized and Non-parametized
+# parametized and Non-parametized
 
-# def add5(value):
-#     return value + 5    
+def add5(value):
+    return value + 5    
 
-# # print(add5(6))
+# print(add5(6))
 
-# def addition(val1, val2, val3=0):
+def addition(val1, val2, val3=0):
           
-#     return val1 + val2 + val3
+    return val1 + val2 + val3
 
 
-# # res = addition(3, 2)
-# # print(res)
+# res = addition(3, 2)
+# print(res)
 
 
-# # global and local variable
+# global and local variable
 
 
-# val = 5
+val = 5
 
-# def add10():
-#     global my_val, val
+def add10():
+    global my_val, val
     
-#     my_val = 10
-#     # print(val + my_val)
+    my_val = 10
+    # print(val + my_val)
     
-#     val += 10
-#     val = val + 10
-#     print(val)
+    val += 10
+    val = val + 10
+    print(val)
 
-# def sub10():
-#     print(val - my_val) 
+def sub10():
+    print(val - my_val) 
 
 
-# # add10()
-# # sub10()
+# add10()
+# sub10()
 
 # database = [
 #     {
