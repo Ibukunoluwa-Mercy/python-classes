@@ -146,7 +146,7 @@ def sub10():
 #     if amount < 1:
 #         print("Amount can not be less than 1")
 #     elif amount > bal:
-#         print("Insuffucient funds")
+#         print("Insufficient funds")
 #     else:
 #         bal -= amount
 #         print("Your new balance is:", bal)
@@ -246,7 +246,7 @@ def sub10():
 
 
 
-# # 4pillars of OOP
+# # 4 pillars of OOP:
 # # Inheritance
 # # Encapsulation: private, public, protected, static
 # # Polymophorsm
