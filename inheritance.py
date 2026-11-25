@@ -1,6 +1,7 @@
 # import backend
 from backend import generate_account_no, BankBackend as BK
 
+
 class BankFrontend(BK):
     
     def home(self):
@@ -82,4 +83,4 @@ bk.home()
 # scripts: its a single file that a contains a python code.
 # modules: is a scripts that contains functions, variables and classes
 # libraries: its a combination of two or more modules 
-# frameworks: its a combination of two or more libraries of a particular programming language that streamlines to worklow of a concept/area e.g django (web framework for python), tensorflow/ keras (AI models), Scikit-learn (Machine Models )
+# frameworks: its a combination of two or more libraries of a particular programming language that streamlines to workflow of a concept/area e.g django (web framework for python), tensorflow/ keras (AI models), Scikit-learn (Machine Models )
