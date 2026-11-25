@@ -1,7 +1,6 @@
 # import backend
 from backend import generate_account_no, BankBackend as BK
 
-
 class BankFrontend(BK):
     
     def home(self):
